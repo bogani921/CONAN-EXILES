@@ -1,0 +1,5 @@
+.banner_text.with-overlay {
+    background-color: rgba(0, 0, 0, 0.953); /* Imposta l'opacità desiderata */
+    color: #fff; /* Imposta il colore del testo bianco o il colore desiderato */
+    padding: 10px; /* Imposta il padding desiderato */
+}
