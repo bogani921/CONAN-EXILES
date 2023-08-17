@@ -148,40 +148,101 @@
    </script>
 
    <div id="bottonedropdown">
-      <button id="bottonetendina" onclick="showDropdown()" style="margin-top: 25px;">CHOOSE YOUR FAVOURITE
-         "PET"</button>
+      <button id="bottonetendina" onclick="showDropdown()" style="margin-top: 25px;">SCEGLI CHE TIPO DI THRALLS
+         VUOI</button>
       <div id="dropdown-container"
          style="display: none; margin-left: 0px; border-left-style: solid; border-left-width: 0px; padding-left: 15px; border-right-style: solid; border-right-width: 0px; padding-right: 15px;">
          <div id="dropdown-button"
             style="border-top-style: solid; border-top-width: 0px; margin-top: -5px; display: flex; flex-direction: row; align-items: center; justify-content: center;margin-bottom: 15px;">
-            <button class="TypeThralls" onclick="window.location.href = 'PET.html';" style="margin-right: 10px;">Giants
-               Pets</button>
-            <button class="TypeThralls" onclick="window.location.href = 'ESOTIC PET.html';"
-               style="margin-right: 10px;">Esotic Pets</button>
-            <button class="TypeThralls" onclick="window.location.href = 'WILD PETS.html';"
-               style="margin-right: 10px;">Wild Pets</button>
-            <button class="TypeThralls" onclick="window.location.href = 'REPTILES PET.html';"
-               style="margin-right: 10px;">Reptiles Pets</button>
-            <button class="TypeThralls" onclick="window.location.href = 'SKELETONS.html';"
-               style="margin-right: 10px;">Skeletons</button>
-            <button class="TypeThralls" onclick="window.location.href = 'FROST GIANTS.html';"
-               style="margin-right: 10px;">Frost Giants</button>
-            <button class="TypeThralls" onclick="window.location.href = 'RIDE PET.html';"
-               style="margin-right: 10px;">Ride Pets</button>
-            <button class="TypeThralls" onclick="window.location.href = 'CARRIERS ANIMALS.html';"
-               style="margin-right: 10px;">Carrier Animal</button>
+            <button onclick="window.location.href = 'THRALLS.html';" style="margin-right: 10px;">Thralls
+               Archers</button>
+            <button onclick="window.location.href = 'THRALLS FIGHTERS.html';" style="margin-right: 10px;">Thralls
+               Fighters</button>
+            <button onclick="window.location.href = 'THRALLS WORKERS.html';" style="margin-right: 10px;">Thralls
+               Worker</button>
+            <button onclick="window.location.href = 'THRALLS DANCERS.html';" style="margin-right: 10px;">Thralls
+               Dancer-Porter</button>
+            <button onclick="window.location.href = 'THRALLS TANK.html';" style="margin-right: 10px;">Thralls
+               Tank</button>
+            <button onclick="window.location.href = 'THRALLS GOD PRIEST.html';" style="margin-right: 10px;">Thralls God
+               Priest</button>
          </div>
       </div>
+   </div>
 
-      <!-- Shop Body -->
-      <br>WILD PET'S
+
+
+
+
+
+
+   <!-- Shop Body -->
+
+   </head>
+
+   <body>
+      <style>
+         .image-container {
+            position: relative;
+            display: inline-block;
+         }
+
+         .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+         }
+
+         .image-container:hover .image-overlay {
+            opacity: 1;
+         }
+
+         .image-info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+         }
+
+         .image-info h3 {
+            margin-bottom: 10px;
+            color: #fff;
+         }
+
+         .image-info p {
+            font-size: 14px;
+         }
+      </style>
+      <h2>CHOOSE YOUR FAVOURITE</h2>
+      <br>
+      <button class="varie-armi" onclick="window.location.href = 'ARMORER.html'">ARMORER</button>
+      <button class="varie-armi" onclick="window.location.href = 'BLACKSMITH.html'">BLACKSMITH</button>
+      <button class="varie-armi" onclick="window.location.href = 'CARPENTER.html'">CARPENTER</button>
+      <button class="varie-armi" onclick="window.location.href = 'TASK MASTER.html'">TASK MASTER</button>
+      <button class="varie-armi" onclick="window.location.href = 'ALCHEMIST.html'">ALCHEMIST</button>
+      <button class="varie-armi" onclick="window.location.href = 'TANER.html'">TANER</button>
+      <button class="varie-armi" onclick="window.location.href = 'SMELTER.html'">SMELTER</button>
+      <button class="varie-armi" onclick="window.location.href = 'COOK.html'">COOK</button>
+      <button class="varie-armi" onclick="window.location.href = 'SORCERERS.html'">SORCERERS</button>
+      <br>
+      <br>Taskmasters <br> + -Bundle: 1 <strong>Taskmaster</strong> for type(3) = 5 € <br>
+      + -Bundle: 2 <strong>Taskmaster</strong> for type(6) = 8 € <br>
+      <br>
+
       <div class="product-row">
          <div class="product-item">
-            <h2>Greater Yakith</h2>
-            <img class="img-shop" src="images/WILDPET1.png" alt="Immagine 1">
-            <p>HP: 1707<br>Strenght: 1<br>Agilità: 8<br>Vitalià: 2 <br> Grinta: 2</p>
+            <h2>(Driver)<br>MALE - Skaldgrim of Vanaheim <br>FEMALE - Risa the Brutal</h2>
+            <img class="img-shop" src="images/HUSSARS1.png" alt="Immagine 2">
+            <p>CHOOSE YOUR GENDER</p>
             <div class="container">
-               <span class="buy-now">1.50€</span>
+               <span class="buy-now">2 €</span>
                <video class="background-video" autoplay loop muted>
                   <source src="1.mp4" type="video/mp4">
                </video>
@@ -191,45 +252,24 @@
 
 
          <div class="product-item">
-            <h2>Greater Tawny Jungleclaw</h2>
-            <img class="img-shop" src="images/WILDPET2.png" alt="Immagine 2">
-            <p>HP: 1813<br>Strenght: 10<br>Agility: 0<br>Vitality: 2 <br> Grit: 2</p>
+            <h2>(Overseer)<br>MALE - Leo the Monster <br>FEMALE -Spris the Fanged</h2>
+            <img class="img-shop" src="images/BLACKSMITH1.png" alt="Immagine 1">
+            <p>CHOOSE YOUR GENDER</p>
             <div class="container">
-               <span class="buy-now">1 €</span>
-               <video class="background-video" autoplay loop muted>
-                  <source src="1.mp4" type="video/mp4">
-               </video>
-            </div>
-         </div>
-
-
-
-         <div class="product-item">
-            <h2>Greater Island Lynx</h2>
-            <img class="img-shop" src="images/WILDPET3.png" alt="Immagine 3">
-            <p>HP: 1673<br>Strenght: 1<br>Agility: 0<br>Vitality: 1<br> Grit: 8</p>
-            <div class="container">
-               <span class="buy-now">1 €</span>
-               <video class="background-video" autoplay loop muted>
-                  <source src="1.mp4" type="video/mp4">
-               </video>
-            </div>
-         </div>
-
-
-
-         <div class="product-item">
-            <h2>Greater Aardwolf Scavenger</h2>
-            <img class="img-shop" src="images/WILDPET4.png" alt="Immagine 4">
-            <p>HP: 1190<br>Strenght: 10<br>Agility: 0<br>Vitality: 2<br> Grit: 2</p>
-            <div class="container">
-               <span class="buy-now">1 €</span>
+               <span class="buy-now">2 €</span>
                <video class="background-video" autoplay loop muted>
                   <source src="1.mp4" type="video/mp4">
                </video>
             </div>
          </div>
       </div>
+
+
+<br>There are 2 types of Taskmasters with <strong>different bonuses:</strong> <br>
+
+Icon thrall <strong>Driver</strong> provides the best increase of the <strong>concussion damage</strong> of any crafted piece. <br>
+
+Icon thrall <strong>Overseer</strong> provides the best increase of the <strong>durability</strong> of any crafted piece. <br><br>
 
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -242,9 +282,7 @@
                <div class="call_text"><img src="images/call-icon.png"></div>
                <div class="call_text"><a href="#">Call +39 3883627043</a></div>
                <div class="call_text"><img src="images/mail-icon.png"></div>
-               <div class="call_text"><a
-                     href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwPkWsXWLxPXfMnXRfmrxJzjLnFgDTRXCwrGjgCqKzXZnCcbxShLFXdhsRhvsFtzPNSgvzh"
-                     target="_blank">Exiles.Industries@gmail.com</a></div>
+               <div class="call_text"><a href="#">Exiles.Industries@gmail.com</a></div>
             </div>
             <div class="social_icon">
                <ul>
@@ -276,6 +314,6 @@
       <!-- javascript -->
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-</body>
+   </body>
 
 </html>
